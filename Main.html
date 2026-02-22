@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smart Job Portal</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color: lightgreen;
+                margin:0;
+                padding:0;
+            }
+            .container{
+                display:flex;
+                flex-wrap:wrap;
+                justify-content:center;
+                padding:20px;
+            }
+            .button{
+                margin: 5px;
+                padding:3px;
+                align-items: center;
+                justify-content:center;
+                padding-right: 50px;
+                
+            }
+            .card{
+                background-color: rgb(183, 137, 201);
+                padding:20px;
+                margin:15px;
+                border-radius: 10px;
+                width: 200px;
+            }
+            h1{
+                text-align: center;
+                background-color:white;
+                color: black;
+                height: 50px;
+                padding:20px;
+            }
+            h2{
+                text-align: center;
+                background-color: white;
+                color: black;
+
+            }
+           
+
+        </style>
+        
+    </head>
+    <h1>Smart Job Portal</h1>
+    <body>
+        <div class="centerd " >
+            <h4>Search By Company: </h4>
+            <input type="search" placeholder="Search your Dream!" style="width: 600px; height: 20px; justify-content:center;">
+            <br><br> 
+            <h4>Search By Location: </h4>
+             <input type="search" placeholder="Filter by Location" style="width: 600px; height: 20px; justify-content:center;" >
+        </div>
+        <div class="container">
+
+            <div class="card">
+                <h2>TCS</h2>
+                <p><Strong>Role: </Strong>Manager</p>
+                <p><B>Location: </B>Coimbatore</p>
+                <p><strong>Salary: </strong>20000</p>
+                <button onclick="changeText()" style="padding:7px;font-size:medium">Apply</button>
+                <p id="b1">Not Applied</p>
+                <script src="button.js"></script>
+                <a href="details.html">Click to Enter Details</a> 
+            </div>
+
+             <div class="card">
+                <h2>ZOHO</h2>
+                <p><Strong>Role: </Strong>HR</p>
+                <p><Strong>Location: </Strong>Chennai</p>
+                <p><strong>Salary: </strong>100000</p>
+                <button onclick="chage()"  style="padding:7px;font-size:medium">Apply</button>
+                <p id="b2">Not Applied</p>
+                <script src="button.js"></script>
+                <a href="details.html">Click to Enter Details</a> 
+            </div>
+
+             <div class="card">
+                <h2>WIPRO</h2>
+                <p><Strong>Role: </Strong>Assistant Manager</p>
+                <p><Strong>Location: </Strong>Bengalur</p>
+                <p><strong>Salary: </strong>35000</p>
+                <button onclick="change()" style="padding:7px;font-size:medium ">Apply</button>
+                <p id="b3">Not Applied</p>
+                <script src="button.js"></script>
+                <a href="details.html">Click to Enter Details</a> 
+            </div>
+
+             <div class="card">
+                <h2>SOLITON</h2>
+                <p><Strong>Role: </Strong>Team lead</p>
+                <p><Strong>Location: </Strong>Hydrabad</p>
+                <p><strong>Salary: </strong>50000</p>
+                <button onclick="change1()" style="padding:7px;font-size:medium">Apply</button>
+                <p id="b4">Not Applied</p>
+                <script src="button.js"></script>
+                <a href="details.html">Click to Enter Details</a> 
+            </div>
+
+             <div class="card">
+                <h2>R-SEQUENCE</h2>
+                <p><Strong>Role: </Strong>Project Lead</p>
+                <p><Strong>Location: </Strong>Mumbai</p>
+                <p><strong>Salary: </strong>100000</p>
+                <button onclick="change2()" style="padding:7px;font-size:medium">Apply</button>
+                <p id="b5">Not Applied</p>
+                <script src="button.js"></script>
+                <a href="details.html">Click to Enter Details</a> 
+            </div>
+
+             <div class="card">
+                <h2>ABB</h2>
+                <p><Strong>Role: </Strong>Manager</p>
+                <p><Strong>Location: </Strong>Mumbai</p>
+                <p><strong>Salary: </strong>20000</p>
+                <button onclick="change3()" style="padding:7px;font-size:medium">Apply</button>
+                <p id="b6">Not Applied</p>
+                <script src="button.js"></script>
+                <a href="details.html">Click to Enter Details</a> 
+            </div>
+        </div>
+    </body>
+</html>
